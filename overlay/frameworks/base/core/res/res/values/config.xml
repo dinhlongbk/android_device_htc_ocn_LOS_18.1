@@ -348,6 +348,12 @@
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
+     <!-- Dùng để bật vuốt back -->
+    <integer name="config_navBarInteractionMode">2</integer>
+    <bool name="config_navBarAlwaysShowOnSideEdgeGesture">true</bool>
+    <bool name="config_showNavigationBar">true</bool>
+
+
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
 

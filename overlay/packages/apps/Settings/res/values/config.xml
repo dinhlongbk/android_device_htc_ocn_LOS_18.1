@@ -26,4 +26,7 @@
   <!-- Whether to display touch sensitivity switch -->
   <bool name="config_show_touch_sensitivity">true</bool>
 
+<!-- bật cử chỉ -->
+  <bool name="config_gesture_settings_enabled">true</bool>
+
 </resources>
