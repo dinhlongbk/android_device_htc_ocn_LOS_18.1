@@ -26,7 +26,7 @@ TARGET_NO_VENDOR_BOOT := true
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := htc_ocn,htc_ocnuhl,htc_ocnwhl,htc_ocndugl,htc_ocndtwl,ocn
+TARGET_OTA_ASSERT_DEVICE := htc_ocn,htc_ocnuhl,htc_ocnwhl,htc_ocndugl,htc_ocndtwl,htc_ocnuhljapan,ocn
 
 # Architecture
 TARGET_ARCH := arm64
