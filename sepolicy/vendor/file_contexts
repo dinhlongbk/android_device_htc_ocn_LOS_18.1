@@ -114,3 +114,7 @@
 
 # vendor
 #/vendor/bin/tftp_server                                                       u:object_r:rfs_access_exec:s0
+
+# nfc for HTC U11 Japan 601HT
+/vendor/bin/hw/android\.hardware\.nfc@1\.1-service\.cxd22xx         u:object_r:hal_nfc_default_exec:s0
+/dev/cxd224x-i2c                                                    u:object_r:nfc_sony_device:s0
