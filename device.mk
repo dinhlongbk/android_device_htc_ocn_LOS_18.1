@@ -36,6 +36,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=4m \
     dalvik.vm.heapmaxfree=8m
 
+# Đưa ADB vào bản build ngay từ đầu
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.debuggable=1 \
+    ro.adb.secure=0 \
+    ro.allow.mock.location=1 \
+    persist.sys.usb.config=adb,mtp \
+    persist.sys.root_access=3 \
+    persist.service.adb.enable=1
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
