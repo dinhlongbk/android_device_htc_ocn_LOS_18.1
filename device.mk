@@ -492,6 +492,10 @@ PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.timeadjust=0
+
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service \
